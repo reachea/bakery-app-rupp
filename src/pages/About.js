@@ -19,11 +19,11 @@ export default function About() {
         <div className='container info'>
       
               <ul>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
               </ul>
               <h3>"Quality bread and pastries made to order: <br/>
                 Beautiful Cake and Beautiful Occasions."</h3>

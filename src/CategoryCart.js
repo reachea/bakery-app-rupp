@@ -4,7 +4,7 @@ import data from './data'
 const CategoryCart =()=> {
         return (
             <div>
-         <div class=" container">
+         <div className=" container">
             <div className="row justify-content-center">
             
                 {data.cake.map((item , index)=>{

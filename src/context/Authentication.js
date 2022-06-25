@@ -12,7 +12,7 @@ const Authentication = (props) => {
     const access_token = localStorage.getItem('token');
 
     if (access_token) {
-      axios_instance.get('/me', {
+      axios_instance.get('/audience', {
         params: {
           remember_token: access_token
         }

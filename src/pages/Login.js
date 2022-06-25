@@ -27,9 +27,9 @@ function Login() {
   return (
     <>
       <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid navbar-login">
-            <div class="collapse navbar-collapse" id="navbarNav">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid navbar-login">
+            <div className="collapse navbar-collapse" id="navbarNav">
               <ul>
                 <li>
                   <a href="/" id="list">
@@ -66,39 +66,29 @@ function Login() {
           <img src="picture/ty.jpg" />
         </div>
         <div className="form-block">
-          <form className="form-controll">
-            <div class="mb-3">
+          <form className="form-controll" onSubmit={onHandleLogin}>
+            <div className="mb-3">
               <label>Email address</label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 placeholder="User email"
+                name="email"
               />
             </div>
-            <div class="mb-3">
-              <label class="form-label">Password</label>
+            <div className="mb-3">
+              <label className="form-label">Password</label>
               <input
                 type="password"
-                class="form-control"
+                className="form-control"
                 placeholder="User password"
+                name="password"
               />
             </div>
 
-            <buthrefn type="submit" class="btn btn-primary btn-submit">
+            <button type="submit" className="btn btn-primary btn-submit">
               Submit
-            </buthrefn>
-            <div className="social-log">
-              <p>Login with:</p>
-              <buthrefn>
-                <i class="fa-brands fa-facebook-f"></i>
-              </buthrefn>
-              <buthrefn>
-                <i class="fa-brands fa-google"></i>
-              </buthrefn>
-              <buthrefn>
-                <i class="fa-brands fa-twitter"></i>
-              </buthrefn>
-            </div>
+            </button>
           </form>
         </div>
       </div>

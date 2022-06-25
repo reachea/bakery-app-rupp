@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Navbar from '../components/Navbar'
 import Navfooter from '../components/Navfooter'
 import { Link } from 'react-router-dom'
-export class home extends Component {
+export class Home extends Component {
 
   render() {
     return (
@@ -32,11 +32,11 @@ export class home extends Component {
         <div className='container info'>
       
               <ul>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
-                <li><i class="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
+                <li><i className="fa fa-star"></i></li>
               </ul>
               <h3>"Quality bread and pastries made to order: <br/>
                 Beautiful Cake and Beautiful Occasions."</h3>
@@ -93,4 +93,4 @@ export class home extends Component {
   }
 }
 
-export default home
+export default Home

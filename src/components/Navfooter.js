@@ -15,10 +15,10 @@ function  Navfooter() {
                 <div className='boxf-2'>
                 <h1>USEFUL Link</h1>
                 <ul>
-                <li><a href='/'><i class="fa fa-home"></i>: HOME</a></li>
-                <li><a href='About'><i class="fa fa-user"></i>: ABOUT US</a></li>
-                <li><a href='cake'><i class="fa fa-shopping-cart"></i>: SHOP</a></li>
-                <li><a href='Category'><i class="fa fa-bread-slice"></i>: CAKE</a></li>
+                <li><a href='/'><i className="fa fa-home"></i>: HOME</a></li>
+                <li><a href='About'><i className="fa fa-user"></i>: ABOUT US</a></li>
+                <li><a href='cake'><i className="fa fa-shopping-cart"></i>: SHOP</a></li>
+                <li><a href='Category'><i className="fa fa-bread-slice"></i>: CAKE</a></li>
                 </ul>
                 </div>
                 <div className='boxf-3'>
@@ -47,10 +47,10 @@ function  Navfooter() {
 
            <div className='container social'>
            <ul>
-               <li><i class="fa-brands fa-facebook-f"></i>:Facebook</li>
-               <li><i class="fa-brands fa-instagram-square"></i>:INSTAGRAM</li>
-               <li><i class="fa-brands fa-twitter"></i>:TWITER</li>
-               <li><i class="fa-brands fa-pinterest"></i>:PINTEREST</li>
+               <li><i className="fa-brands fa-facebook-f"></i>:Facebook</li>
+               <li><i className="fa-brands fa-instagram-square"></i>:INSTAGRAM</li>
+               <li><i className="fa-brands fa-twitter"></i>:TWITER</li>
+               <li><i className="fa-brands fa-pinterest"></i>:PINTEREST</li>
            </ul>
            </div>
         </div>
